@@ -1,0 +1,28 @@
+.search-box {
+  -webkit-appearance: none;
+  appearance: none;
+  border: none;
+  outline: none;
+  padding: 10px;
+  width: 175px;
+  line-height: 30px;
+  margin-bottom: 30px;
+  background: linear-gradient(135deg, #56ccf2, #2f80ed);
+  color: #fff;
+  border-radius: 5px;
+  font-size: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+  animation: pulse 2s infinite;
+}
+
+.search-box::placeholder {
+  color: #fff;
+  font-family: "Bigelow Rules";
+  font-size: 30px;
+}
+
+.search-box:hover,
+.search-box:focus {
+  background-color: #2186d9;
+}
